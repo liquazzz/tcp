@@ -1,5 +1,5 @@
 import { connect } from 'cloudflare:sockets';
-const AUTH_UUID = "2523c510-9ff0-415b-9582-93949bfae7e3";
+const AUTH_UUID = "2211f6bd-dd62-4325-adcf-8d5ce606bec0";
 export default {
   async fetch(req) {
     if (req.headers.get('Upgrade') !== 'websocket') return new Response('Hello World!', { status: 200 });
